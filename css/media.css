@@ -1,0 +1,64 @@
+/* About */
+@media screen and (max-width:1400px){
+    .about picture::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:220px;
+        left:-25px;
+        background-image: url(../IMG/dots.png);
+    }
+}
+@media screen and (max-width:1200px){
+    .about picture::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:200px;
+        left:-25px;
+        background-image: url(../IMG/dots.png);
+    }
+}
+@media screen and (max-width:992px){
+    .about picture::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:400px;
+        left:-25px;
+        background-image: url(../IMG/dots.png);
+    }
+    .about-info h3{
+        margin-top: 30px;
+    }
+    }
+    @media screen and (max-width:766px){
+        .about picture::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top:320px;
+            left:-25px;
+            background-image: url(../IMG/dots.png);
+        }
+        .about-info h3{
+            margin-top: 40px;
+        }
+    }
+/* Contacts */
+@media screen and (max-width:992px){
+    .contact .submit{
+        left: -45px;
+        position: absolute;
+    }
+    }
+@media screen and (max-width:766px){
+    .contact .submit{
+        left:-30px;
+        position: absolute;
+    }
+}
